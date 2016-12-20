@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.www.jason.radardemo_master.view.RadarView
+        android:id="@+id/radar_view"
+        android:layout_width="255dp"
+        android:layout_height="255dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/scan_bg"/>
+
+</FrameLayout>
